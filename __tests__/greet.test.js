@@ -24,7 +24,7 @@ describe('returns null when you supply non-string values', () => {
 });
 
 describe('returns \'hello world\' when invoked with \'world\' as the first argument', () => {
-  it('should be \'hello world\'', () => {
+  it('returns \'hello world\'', () => {
     expect(greet('world')).toBe('hello world');
   });
 });
