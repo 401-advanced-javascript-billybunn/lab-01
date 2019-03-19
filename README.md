@@ -20,16 +20,16 @@
 #### `greet.js`
 
 ##### Exported Values and Methods
-###### arithmatic.add(a, b, …) -> a + b + …
+###### `arithmetic.add(a, b, …) -> a + b + …`
 Adds an indefinite number of numbers, separated by commas
 
-###### arithmatic.subtract(a, b, …) -> a - b - …
+###### `arithmetic.subtract(a, b, …) -> a - b - …`
 Subtracts an indefinite number of numbers, separated by commas
 
-###### arithmatic.multiply(a, b, …) -> a * b * …
+###### `arithmetic.multiply(a, b, …) -> a * b * …`
 Multiplies an indefinite number of numbers, separated by commas
 
-###### `arithmatic.divide(a, b) -> a / b`
+###### `arithmetic.divide(a, b) -> a / b`
 Divides one number by another
 
 
