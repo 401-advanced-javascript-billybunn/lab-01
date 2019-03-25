@@ -2,12 +2,13 @@
 =================================================
 
 ## LAB: Node Ecosystem
-
+[![Build Status](https://www.travis-ci.com/401-advanced-javascript-billybunn/lab-01.svg?branch=submission)](https://www.travis-ci.com/401-advanced-javascript-billybunn/lab-01)
 ### Author: Billy Bunn
 
 ### Links and Resources
+
 * [repo](https://github.com/401-advanced-javascript-billybunn/lab-01)
-<!-- * [travis](http://xyz.com) -->
+* [travis](https://www.travis-ci.com/401-advanced-javascript-billybunn/lab-01)
 <!-- * [back-end](http://xyz.com) (when applicable) -->
 <!-- * [front-end](http://xyz.com) (when applicable) -->
 
