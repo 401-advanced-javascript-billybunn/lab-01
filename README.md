@@ -17,20 +17,32 @@
 
 ### Modules
 #### `arithmetic.js`
-#### `greet.js`
+Exports an `arithmetic` object with several methods that perform math operations on given inputs. Also includes a helper function to validate input. See those functions below.
 
 ##### Exported Values and Methods
+###### `everyValueIsANumber(values) -> null (if any value is NaN)
+A helper function to validate arguments passed in to each arithmetic method below. Checks if every value passed in is a number. Returns null if input is invalid.
+
 ###### `arithmetic.add(a, b, …) -> a + b + …`
-Adds an indefinite number of numbers, separated by commas
+Adds an indefinite number of numbers, separated by commas.  Returns null if input is invalid. 
+Method uses a REST parameter (spread operator) to allow users to add any number of number values, separated by commas.
 
 ###### `arithmetic.subtract(a, b, …) -> a - b - …`
-Subtracts an indefinite number of numbers, separated by commas
+Subtracts an indefinite number of numbers, separated by commas. Returns null if input is invalid. 
+Method uses a REST parameter (spread operator) to allow users to subtract any number of number values, separated by commas.
 
 ###### `arithmetic.multiply(a, b, …) -> a * b * …`
-Multiplies an indefinite number of numbers, separated by commas
+Multiplies an indefinite number of numbers, separated by commas. Returns null if input is invalid. 
+Method uses a REST parameter (spread operator) to allow users to multiply any number of number values, separated by commas.
 
 ###### `arithmetic.divide(a, b) -> a / b`
-Divides one number by another
+Divides one number by another.  Returns null if input is invalid.
+
+
+#### `greet.js`
+##### Exported Values and Methods
+###### `greet(string) -> 'hello string'`
+Takes in any string and returns a string with 'hello ' before whatever was passed in. Returns null if the type of value passed in to the function is not `string`.
 
 
 ### Setup
